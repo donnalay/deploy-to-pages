@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubernetes Cluster Setup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <section class="page">
+        <section class="navigation"></section>
+        <section class="section center text-primary">
+
+            <!-- section title and description -->
+            <div class="section-details content-width">
+                <h1>
+                    H1 Page Title
+                </h1>
+                <p>
+                    Page description
+                </p>
+            </div>
+
+            <!-- page content -->
+            <div class="content">
+                <!-- Task 1: Prerequisites -->
+                <details open id="task-1" name="details" class="content-width border">
+                    <summary>
+                        <div class="header">
+                            <h2>H2 Title</h2>
+                            <p>Description text</p>
+                        </div>
+                        <div class="status icon-default">
+                            <svg role="img" focusable="false" aria-label="Incomplete Step" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20.8097 12.9516L19.8287 12.7576C19.941 12.1899 20 11.6023 20 11C20 10.3977 19.941 9.81008 19.8287 9.24245L20.8097 9.04838C20.9345 9.67958 21 10.3321 21 11C21 11.6679 20.9345 12.3204 20.8097 12.9516ZM19.3157 5.44384L18.4847 6.00016C17.8273 5.01827 16.9817 4.17268 15.9998 3.51531L16.5562 2.68435C17.6467 3.41443 18.5856 4.35333 19.3157 5.44384ZM12.9516 1.19034L12.7576 2.17133C12.1899 2.05903 11.6023 2 11 2C10.3977 2 9.81008 2.05903 9.24245 2.17133L9.04838 1.19034C9.67958 1.06547 10.3321 1 11 1C11.6679 1 12.3204 1.06547 12.9516 1.19034ZM5.44384 2.68435L6.00016 3.51531C5.01827 4.17268 4.17268 5.01827 3.51531 6.00016L2.68435 5.44384C3.41443 4.35333 4.35333 3.41443 5.44384 2.68435ZM1.19034 9.04838C1.06547 9.67958 1 10.3321 1 11C1 11.6679 1.06547 12.3204 1.19034 12.9516L2.17133 12.7576C2.05903 12.1899 2 11.6023 2 11C2 10.3977 2.05903 9.81008 2.17133 9.24245L1.19034 9.04838ZM2.68435 16.5562L3.51531 15.9998C4.17268 16.9817 5.01827 17.8273 6.00016 18.4847L5.44384 19.3157C4.35333 18.5856 3.41443 17.6467 2.68435 16.5562ZM9.04838 20.8097L9.24245 19.8287C9.81008 19.941 10.3977 20 11 20C11.6023 20 12.1899 19.941 12.7576 19.8287L12.9516 20.8097C12.3204 20.9345 11.6679 21 11 21C10.3321 21 9.67958 20.9345 9.04838 20.8097ZM16.5562 19.3157L15.9998 18.4847C16.9817 17.8273 17.8273 16.9817 18.4847 15.9998L19.3157 16.5562C18.5856 17.6467 17.6467 18.5856 16.5562 19.3157Z"
+                                    fill="#161616" />
+                            </svg>
+                        </div>
+                    </summary>
+                    <div class="content-group border-top">
+                        <div class="top-default">
+                            <h3>H3 Heading</h3>
+                            <ul>
+                                <li>Bullet item</li>
+                                <li>Bullet item</li>
+                                <li>Bullet item</li>
+                            </ul>
+                        </div>
+
+                        <div class="alert info border">
+                            <div class="icon-default icon-blue500"><svg role="img" focusable="false" viewBox="0 0 24 24"
+                                    aria-label="Info Circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                    class="css-bleycz">
+                                    <path
+                                        d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 6C11.4477 6 11 6.44772 11 7C11 7.55228 11.4477 8 12 8C12.5523 8 13 7.55228 13 7C13 6.44772 12.5523 6 12 6ZM12 10C11.4477 10 11 10.4477 11 11V17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17V11C13 10.4477 12.5523 10 12 10Z">
+                                    </path>
+                                </svg></div>
+                            <ul>
+                                <p class="subtitle">Alert Title</p>
+                                <li>Bullet item</li>
+                                <li>Bullet item</li>
+                                <li>Bullet item</li>
+
+                            </ul>
+                        </div>
+                        <button class="button-primary text-contrast next-details">Next</button>
+
+                    </div>
+                </details>
+
+                <!-- Last Task, No CTA -->
+                <details id="task-7" name="details" class="content-width border">
+                    <summary>
+                        <div class="header">
+                            <h2>H2 Card Title</h2>
+                            <p>Card description text</p>
+                        </div>
+                    </summary>
+                    <div class="content-group border-top">
+                        <div class="top-default">
+                            <div>
+                                <h3>H3 Section Title</h3>
+                                <p>Section description text</p>
+                            </div>
+                            <div class="code-snippet code-text text-contrast">
+                                <pre class="text-to-copy">
+Copy this example code text</pre>
+                                <button class="copy-button">Copy</button>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="content-group">
+                            <div>
+                                <h3>H3 Section Title</h3>
+                                <p>Section description text</p>
+                            </div>
+                            <div>
+                                <h4>H4 Section List title</h4>
+                                <ul>
+                                    <li>Bullet item</li>
+                                    <li>Bullet item</li>
+                                    <li>Bullet item:
+                                        <code>code text</code>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </details>
+
+            </div>
+            <!-- page actions -->
+            <div class="actions bottom-spacing">
+                <form action="#">
+                    <button type="submit" class="button-primary text-contrast">Complete Setup</button>
+                </form>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
